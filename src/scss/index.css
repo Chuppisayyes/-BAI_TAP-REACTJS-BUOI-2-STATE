@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../../public/glassesImage/background.jpg);
+  background-repeat: none;
+  background-size: cover;
+}
+
+.header .container .title {
+  background-color: #FFDCB6;
+  padding: 15px 30px;
+  opacity: 0.8;
+  text-align: center;
+}
+.header .container .title h2 {
+  font-size: 36px;
+  color: #9384D1;
+}
+.header .container .content .model {
+  display: flex;
+  justify-content: space-around;
+}
+.header .container .content .model .model1 {
+  margin-right: 100px;
+  position: relative;
+}
+.header .container .content .model .model1 .glasses_model img {
+  width: 155px;
+  height: 66px;
+  position: absolute;
+  top: 57px;
+  background-color: transparent;
+  left: 47px;
+}
+.header .container .content .model img {
+  width: 250px;
+  height: 250px;
+  padding: 15px 30px;
+}
+.header .container .content .glasses .list_glasses {
+  display: flex;
+  justify-content: center;
+}
+.header .container .content .glasses .list_glasses .item button {
+  margin: 20px 15px 0 0;
+}
+.header .container .content .glasses .list_glasses .item button img {
+  width: 100px;
+  height: 100px;
+}
